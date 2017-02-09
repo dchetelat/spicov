@@ -1,0 +1,19 @@
+Package: spicov
+Type: Package
+Title: High-dimensional Spiked Covariance Matrix Estimation
+Version: 0.1
+Date: 2014-06-11
+Author: Didier Chételat
+Maintainer: Didier Chételat <dc623@cornell.edu>
+Description: Computes a high-dimensional spiked covariance matrix estimate 
+	by correcting the eigenvalues of a sample covariance matrix. The spiked 
+	rank can be specified, or selected automatically (default). See Ch\'etelat 
+	and Wells (2014) (arxiv.org/abs/1408.6440).
+Imports: Rcpp (>= 0.11.1), RcppArmadillo (>= 0.4.200.0)
+Depends: Rcpp, RcppArmadillo
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: MASS
+License: GPL-2
+URL: http://www.stat.cornell.edu/~chetelat
+Encoding: UTF-8
+Packaged: 2014-09-02 00:08:51 UTC; didier
